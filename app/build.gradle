@@ -29,6 +29,11 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    // 내가 추가한 코드
+    buildFeatures{
+        dataBinding true
+    }
 }
 
 dependencies {
